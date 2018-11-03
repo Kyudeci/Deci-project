@@ -1,9 +1,13 @@
-var cards = ['Diamond', 'Spade', 'Heart', 'Club']
-var currentCard = 'Heart'
+let buttonW = document.getElementById("white");
+let buttonB = document.getElementById("black");
+let buttonR = document.getElementById("return");
+let imgR = document.getElementById("kyuw");
+let imgZ = document.getElementById("kyub");
 
-while (currentCard !== 'Spade') {
-  console.log(currentCard);
-  var randomNumber = Math.floor(Math.random()*4);
-  currentCard = cards[randomNumber]
+function ch1() {
+    document.getElementById("kyuw").src = "images/kyuremw.png"
 }
-console.log('Found a Spade!')
+function ch2() {
+  document.getElementById("kyub").src = "images/kyuremb.png"
+}
+// document.getElementById("white").style.visibility = "visible";
