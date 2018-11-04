@@ -1,4 +1,9 @@
 //Need to create a rule that allows only one corrupt or disables second button.
+// let a = document.getElementById("kyuw").src = "images/reshi.png"
+// let b = document.getElementById("kyub").src = "images/zek.png"
+// let x = document.getElementById("return")
+// let y = document.getElementById("kyuw").src = "images/kyuremw.png"
+// let z = document.getElementById("kyub").src = "images/kyuremb.png"
 function ch1() {
   document.getElementById("kyuw").src = "images/kyuremw.png"
   document.getElementById("kyuo").style.visibility = "hidden"
