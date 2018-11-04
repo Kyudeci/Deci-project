@@ -23,7 +23,12 @@ ol.font {
   width: 100%;
 }
 }
-
+#return {
+visibility: hidden;
+}
+button {
+  display: inline-block;
+}
 #res2.active {
   background-image: linear-gradient(rgba(255,0,0,0.5), rgba(255,0,0,0.2) 45%, rgba(246, 161, 46, 0.3) , rgba(246, 161, 46, 0.5));
 }

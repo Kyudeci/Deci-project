@@ -21,11 +21,17 @@
         <a href="reshi.html"><img class="res" id="kyuw" src="images/reshi.png" alt="Reshiram"></a>
       </div>
       <div class="fer">
-        <a href="kyu.html"><img class="kyu" src="images/kyurem.png" alt="Kyurem"></a>
+        <a href="kyu.html"><img class="kyu" id="kyuo" src="images/kyurem.png" alt="Kyurem"></a>
       </div>
       <div class="fer">
         <a href="zek.html"><img class="zek" id="kyub" src="images/zek.png" alt="Zekrom"></a>
       </div>
+      <!--Buttons change current images and also remove kyurem.png when doing so.
+      Return button appears after either button is pressed but not present beforehand.-->
+      <br>
+      <button id="white" onclick="ch1()">Corrupt-W</button>
+      <button id="return" id="white2" onclick="revert()">Revert</button>
+      <button id="black" onclick="ch2()">Corrupt-B</button>
     </center>
     <h2 class="hex">Discography</h2>
       <p>Check out our latest albums:</p>
@@ -56,16 +62,6 @@
             <li>Frozen World</li>
             <li>The Original One</li>
           </ol>
-<!--Will use buttons to change current images and also remove kyurem.png when doing so.
-Return button appears after either button is pressed but not present beforehand.-->
-        <script>
-          // document.getElementById("kyuw").src = "images/kyuremw.png"
-          // document.getElementById("kyub").src = "images/kyuremb.png"
-        </script>
-<!--Plans to change the html visually on button click-->
-        <button id="white" onclick="ch1()">Corrupt-W</button>
-        <button id="black" onclick="ch2()">Corrupt-B</button>
-        <button id="return" onclick="revert()">Revert</button>
       <footer>Not on <a href="https://twitter.com">Twitter</a> or <a href="https://facebook.com">Facebook</a> but we will be soon!</footer>
   </body>
 </html>
