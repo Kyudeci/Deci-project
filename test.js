@@ -8,15 +8,19 @@ function ch1() {
   document.getElementById("kyuw").src = "images/kyuremw.png"
   document.getElementById("kyuo").style.visibility = "hidden"
   document.getElementById("return").style.visibility = "visible"
+  document.getElementById("black").style.visibility = "hidden"
 }
 function ch2() {
   document.getElementById("kyub").src = "images/kyuremb.png"
   document.getElementById("kyuo").style.visibility = "hidden"
   document.getElementById("return").style.visibility = "visible"
+  document.getElementById("white").style.visibility = "hidden"
 }
 function revert() {
   document.getElementById("kyuw").src = "images/reshi.png"
   document.getElementById("kyub").src = "images/zek.png"
   document.getElementById("kyuo").style.visibility = "visible"
   document.getElementById("return").style.visibility = "hidden"
+  document.getElementById("black").style.visibility = "visible"
+  document.getElementById("white").style.visibility = "visible"
 }
