@@ -1,4 +1,4 @@
-//Need to create a rule that allows only one corrupt or disables second button.
+// Need to create a rule that allows only one corrupt or disables second button.
 // let a = document.getElementById("kyuw").src = "images/reshi.png"
 // let b = document.getElementById("kyub").src = "images/zek.png"
 // let x = document.getElementById("return")
